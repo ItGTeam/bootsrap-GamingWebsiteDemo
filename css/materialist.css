@@ -1,0 +1,133 @@
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #9124a3;
+    border-color: #701c7e;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary.focus,
+.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #9124a3;
+    border-color: #701c7e;
+}
+
+.btn.btn-primary:active,
+.btn.btn-primary.active,
+.open>.btn.btn-primary.dropdown-toggle,
+.show>.btn.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #9124a3;
+    border-color: #701c7e;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+.btn.btn-primary:active:hover,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active.focus,
+.btn.btn-primary.active:hover,
+.btn.btn-primary.active:focus,
+.btn.btn-primary.active.focus,
+.open>.btn.btn-primary.dropdown-toggle:hover,
+.open>.btn.btn-primary.dropdown-toggle:focus,
+.open>.btn.btn-primary.dropdown-toggle.focus,
+.show>.btn.btn-primary.dropdown-toggle:hover,
+.show>.btn.btn-primary.dropdown-toggle:focus,
+.show>.btn.btn-primary.dropdown-toggle.focus {
+    color: #fff;
+    background-color: #9124a3;
+    border-color: #3f1048;
+}
+
+.open>.btn.btn-primary.dropdown-toggle.bmd-btn-icon {
+    color: inherit;
+    background-color: #9c27b0;
+}
+
+.open>.btn.btn-primary.dropdown-toggle.bmd-btn-icon:hover {
+    background-color: #9124a3;
+}
+
+.btn.btn-primary.disabled:focus,
+.btn.btn-primary.disabled.focus,
+.btn.btn-primary:disabled:focus,
+.btn.btn-primary:disabled.focus {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+}
+
+.btn.btn-primary.disabled:hover,
+.btn.btn-primary:disabled:hover {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary:hover {
+    box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+}
+
+.btn.btn-primary.btn-link {
+    background-color: transparent;
+    color: #9c27b0;
+    box-shadow: none;
+}
+
+.btn.btn-primary.btn-link:hover,
+.btn.btn-primary.btn-link:focus,
+.btn.btn-primary.btn-link:active {
+    background-color: transparent;
+    color: #9c27b0;
+}
+
+.btn.btn-round {
+    border-radius: 30px;
+}
+
+.btn.btn-google {
+    color:#fff;
+    background-color:#dd4b39;
+    border-color:#dd4b39;
+    box-shadow:0 2px 2px 0 rgba(221,75,57,.14),0 3px 1px -2px rgba(221,75,57,.2),0 1px 5px 0 rgba(221,75,57,.12)
+}
+.btn.btn-google.focus,
+.btn.btn-google:focus,
+.btn.btn-google:hover {
+    color:#fff;
+    background-color:#df5746;
+    border-color:#b93120
+}
+.btn.btn-google.active,
+.btn.btn-google:active,
+.open>.btn.btn-google.dropdown-toggle,
+.show>.btn.btn-google.dropdown-toggle {
+    color:#fff;
+    background-color:#df5746;
+    border-color:#b93120;
+    box-shadow:0 2px 2px 0 rgba(221,75,57,.14),0 3px 1px -2px rgba(221,75,57,.2),0 1px 5px 0 rgba(221,75,57,.12)
+}
+.btn.btn-google.active.focus,
+.btn.btn-google.active:focus,
+.btn.btn-google.active:hover,
+.btn.btn-google:active.focus,
+.btn.btn-google:active:focus,
+.btn.btn-google:active:hover,
+.open>.btn.btn-google.dropdown-toggle.focus,
+.open>.btn.btn-google.dropdown-toggle:focus,
+.open>.btn.btn-google.dropdown-toggle:hover,
+.show>.btn.btn-google.dropdown-toggle.focus,
+.show>.btn.btn-google.dropdown-toggle:focus,
+.show>.btn.btn-google.dropdown-toggle:hover {
+    color:#fff;
+    background-color:#df5746;
+    border-color:#802216
+}

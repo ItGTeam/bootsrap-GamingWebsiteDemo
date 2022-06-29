@@ -1,0 +1,345 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,700';
+:root {
+    --mainBlue: #40ACF1;
+    --transparentBlue: rgba(64, 172, 241, 0.7);
+    --mainWhite: #FFFFFF;
+    --mainBlack: #292F36;
+    --mainGrey: rgb(216, 214, 214);
+    --mainYellow: #e3b505;
+    --blue-gray: #56697d;
+    --transparentindigio: rgba(220, 53, 69, 0.5);
+    --gary-black: #374757;
+    --myred: rgb(220, 53, 69);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--mainWhite);
+    background: var(--mainBlack);
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--mainWhite);
+    z-index: 999;
+}
+
+.hidePreloader {
+    display: none !important;
+}
+/*Navbar*/
+.navbar {
+    background-color: var(--mainBlack);
+}
+
+.navbar-icons {
+    color: var(--mainBlue);
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: var(--mainWhite);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--mainBlue);
+}
+
+.navbar-toggler {
+    outline-color: var(--mainBlue) !important;
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+    color: var(--myred);
+    text-decoration: none !important;
+    transition-property: color;
+    text-rendering: 2s;
+    transition-timing-function: linear;
+}
+
+.nav-icon:hover {
+    color: var(--blue-gray);
+}
+/*End Navbar*/
+/*Header*/
+.header {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+    color: var(--mainWhite);
+    overflow: hidden;
+}
+
+.height-max {
+    min-height: calc(100vh - 76px);
+    background: url("../img/zotac-mek-ultra-header-image.jpeg");
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation-name: zoom;
+    animation-duration: 20s;
+    transition-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2) translateX(-5%);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.title-header {
+    background: rgb(0, 0, 0, 0.4, green, blue);
+    border-left: 0.3rem solid var(--pink);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+.title-icon {
+    color: var(--red);
+    text-decoration: none !important;
+}
+
+.title-icon:hover {
+    color: #721c24;
+    opacity: 0.6;
+}
+/*End Header*/
+/*special Title*/
+.section-title-special {
+    background-color: var(--myred);
+    color: var(--mainGrey);
+    padding: 0.5rem 2rem;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+/*End special Title*/
+/*Card*/
+.pics-card {
+    border-radius: 0 !important;
+}
+
+.card-card-img {
+    border-radius: 0 !important;
+}
+
+.card {
+    background-color: var(--myred) !important;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+.w-35 {
+    width: 35% !important;
+}
+
+.price {
+    font-size: 12px;
+}
+
+.value {
+    background: #3f6ea1;
+    clip-path: polygon(20% 40%, 0 1000%, 100% 0, 0 0);
+    color: var(--mainWhite);
+    transition: all 1s linear;
+}
+
+.value:hover {
+    clip-path: polygon(0 100%, 0 1000%, 100% 0, 0 0);
+}
+/*End Card*/
+/*question*/
+.question {
+    background: url("../img/custom_gaming_setup_bundle_1567072347_a038466a_progressive.jpg") center/cover fixed no-repeat;
+}
+
+.question-gray {
+    background-color: rgb(79, 109, 122, 0.8);
+}
+
+.question-yellow {
+    background-color: rgb(277, 181, 5, 0.6);
+}
+
+.question-icons {
+    font-size: 4rem;
+    color: var(--mainBlue);
+    transition: all 0.5s ease-in-out;
+}
+
+.question-icons:hover {
+    transform: translateY(-10%);
+    color: var(--mainBlue);
+}
+
+.question-title {
+    color: var(--mainWhite);
+}
+
+.question-info {
+    color: var(--mainWhite);
+}
+/*End question*/
+/* Gallery */
+
+.gallery-item {
+    background: var(--myred );
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .gallery-img {
+    transition: all 1s ease-in-out;
+  }
+  
+  .gallery-item:hover .gallery-img {
+    opacity: 0.5;
+  }
+  
+  .gallery-item::after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: 0.5rem solid var(--blue-gray);
+    outline-offset: -2rem;
+    transition: all 1s ease-in-out;
+    transform: scale(0);
+  }
+  
+  .gallery-item:hover:after {
+    transform: scale(1);
+  }
+  
+/* End Gallery */
+/*contact*/
+
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/most-powerful-gaming-pcs-scaled.jpg") center/cover fixed no-repeat;
+}
+
+.contact-input {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: var(--blue-gray);
+    color: var(--mainYellow) !important;
+}
+
+.contact-input::placeholder {
+    color: var(--teal);
+}
+
+.contact-input:focus {
+    background: transparent;
+    border-color: var(--blue-gray);
+}
+
+.contact-btn {
+    color: var(--teal);
+    border-color: var(--blue-gray) !important;
+}
+
+.contact-btn:hover {
+    background: var(--teal);
+    border-color: var(--blue-gray) !important;
+}
+
+
+/*End contact*/
+
+
+/*services*/
+
+.services {
+    position: relative;
+    min-height: 85vh;
+    min-width: 95vw;
+    margin: 0 auto;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+}
+
+.video-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background: var(--transparentindigio);
+}
+
+.services-item {
+    background: var(--gary-black);
+    color: var(--mainWhite);
+    transition: all 1s ease-in-out;
+}
+
+.services-item:hover {
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+    padding-left: 2.2rem !important;
+}
+
+.services-icons {
+    color: var(--mainYellow);
+    font-size: 4rem;
+}
+
+
+/*End services*/
+
+
+/*footer*/
+
+.footer {
+    background: var(--mainBlack);
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--myred);
+    transition: all 1s ease-in-out;
+}
+
+.footer-icon:hover {
+    color: var(--mainGrey);
+}
